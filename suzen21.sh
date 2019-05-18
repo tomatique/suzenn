@@ -1,3 +1,5 @@
-#!bin/bash
-rm [0-9].txt rm test-*.log rm [a-z].png rm [0-9][0-9].txt
-ls
+#!/bin/bash
+rm [0-9]*.txt
+rm [a-z]*.png
+rm test-*.log
+ls -a
